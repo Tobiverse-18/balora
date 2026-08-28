@@ -19,4 +19,19 @@ urlpatterns = [
         "api/agents/",
         include("agents.urls"),
     ),
+
+    path(
+        "api/storefronts/",
+        include("storefronts.urls"),
+    ),
+
+    path(
+        "api/services/",
+        include("services.urls"),
+    ),
+
+    path(
+        "api/payments/",
+        include("payments.urls"),
+    ),
 ]
